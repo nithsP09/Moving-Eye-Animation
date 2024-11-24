@@ -9,3 +9,5 @@ CSS: For styling and animations.
 1. Animated pupils that move in different directions (left, right, down).
 2. Fully responsive design with a centered layout.
 3. Minimal and clean code for easy understanding.
+
+Video : https://youtube.com/shorts/ntNqkPFJjpg?si=EH1T5idExy9Ktcbd
