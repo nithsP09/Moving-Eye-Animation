@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .eyes-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .eye {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .pupil {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 8s infinite;
+  }
+  
+  @keyframes move {
+      0%, 20% {
+        transform: translate(0, 0); /* Look forward */
+      }
+      30%, 40% {
+        transform: translate(-40px, 0); /* Look left */
+      }
+      50%, 60% {
+        transform: translate(40px, 0); /* Look right */
+      }
+      70%, 80% {
+        transform: translate(0, 40px); /* Look down */
+      }
+      100% {
+        transform: translate(0, 0); /* Return to forward */
+      }
+    }
